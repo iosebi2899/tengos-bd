@@ -16,18 +16,14 @@ main {
     display: none;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 80px; }
+    padding: 5px 80px; }
     @media (max-width: 1000px) {
       .main-header .container {
         padding: 10px 20px; } }
     .main-header .container .main-logo img {
       width: auto;
-      height: 30px;
+      height: 45px;
       margin-left: 20px; }
-    .main-header .container .ggas {
-      text-align: center;
-      font-size: 48px;
-      color: #FE394F; }
     .main-header .container .main-navigation {
       display: inline-block;
       transition: 1s height; }
@@ -43,7 +39,7 @@ main {
           -o-transition: 0.2s;
           transition: 0.2s; }
         .main-header .container .main-navigation li :hover {
-          color: #FE394F; }
+          color: #B8EDF8; }
         @media (max-width: 1024px) {
           .main-header .container .main-navigation li {
             font-size: 12px; } }
@@ -51,7 +47,7 @@ main {
         padding-right: 0px; }
       .main-header .container .main-navigation.active {
         display: block;
-        background-color: #FE394F;
+        background-color: #B8EDF8;
         width: 100%;
         height: 1000px;
         text-align: center;
@@ -76,7 +72,7 @@ main {
       right: 80px;
       height: 60%;
       width: 2px;
-      background-color: #FE394F; }
+      background-color: #B8EDF8; }
       @media (max-width: 1000px) {
         .main-header .container .height-line {
           display: block; } }
@@ -93,7 +89,7 @@ main {
           display: block; } }
     .main-header .container .burger {
       position: absolute;
-      background: #FE394F;
+      background: #B8EDF8;
       width: 100%;
       height: 3px;
       top: 50%;
@@ -101,7 +97,7 @@ main {
       opacity: 1; }
     .main-header .container .burger::before {
       position: absolute;
-      background: #FE394F;
+      background: #B8EDF8;
       width: 100%;
       height: 3px;
       top: 8px;
@@ -109,7 +105,7 @@ main {
       display: block; }
     .main-header .container .burger::after {
       position: absolute;
-      background: #FE394F;
+      background: #B8EDF8;
       width: 100%;
       height: 3px;
       bottom: 8px;
@@ -136,7 +132,7 @@ main {
           display: block; } }
 
 .active-nav {
-  height: 50px; }
+  height: 60px; }
   .active-nav .container {
     display: flex; }
 
@@ -202,8 +198,8 @@ main .main-banner {
   .first .header {
     text-align: center;
     margin-bottom: 14px;
-    font-size: 24px;
-    font-family: 'BPG Nino Mkhedruli Book'; }
+    font-size: 18px;
+    font-family: 'BPG Glaho WEB Caps'; }
   .first .break-line {
     position: absolute;
     left: 50%;
@@ -225,11 +221,11 @@ main .main-banner {
     .first .article-container article {
       width: 22%;
       margin-right: 19px;
-      border: 1px solid #FE394F;
+      border: 1px solid #B2B2B2;
       box-sizing: border-box;
       text-align: center;
       position: relative;
-      padding: 50px 10px; }
+      padding: 50px 33px; }
       .first .article-container article img {
         height: 70px;
         width: 100%; }
@@ -239,12 +235,12 @@ main .main-banner {
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
-        background-color: #FE394F;
+        background-color: #B8EDF8;
         margin: 15px 0; }
       .first .article-container article h1 {
         font-family: 'BPG Nino Mkhedruli Book';
         font-size: 18px;
-        padding-top: 58px;
+        padding: 58px 0 18px 0;
         line-height: 25.6px;
         color: white; }
         @media (max-width: 1000px) {
@@ -280,13 +276,12 @@ main .main-banner {
   line-height: 25px;
   position: relative;
   background-image: url("../img/bg.jpg");
-  background-position: center;
   color: white; }
   .second .header {
     text-align: center;
     margin-bottom: 14px;
-    font-size: 24px;
-    font-family: 'BPG Nino Mkhedruli Book'; }
+    font-size: 18px;
+    font-family: 'BPG Glaho WEB Caps'; }
   .second .break-line {
     position: absolute;
     left: 50%;
@@ -309,7 +304,7 @@ main .main-banner {
         font-size: 16px; } }
 
 .imeno {
-  background-position: inherit; }
+  background-position: bottom; }
 
 #instagram {
   width: 24px;
@@ -334,7 +329,7 @@ main .main-banner {
       .third article .left-photo img {
         height: auto;
         width: 100%;
-        box-shadow: 30px 30px #FE394F; }
+        box-shadow: 30px 30px #B8EDF8; }
     .third article .right-text {
       width: 45%; }
       @media (max-width: 1000px) {
@@ -347,16 +342,12 @@ main .main-banner {
           margin-top: 70px; } }
       .third article .right-text h1 {
         font-size: 24px;
-        font-family: 'BPG Nino Mkhedruli Book';
-        color: white; }
-      .third article .right-text h6 {
-        font-size: 13px;
-        font-family: 'BPG Nino Mkhedruli Book';
+        font-family: 'BPG Glaho WEB Caps';
         color: white; }
       .third article .right-text .break-line {
         width: 90px;
         height: 2px;
-        background-color: #FE394F;
+        background-color: white;
         margin: 15px 0px 60px 0px; }
       .third article .right-text h2 {
         width: 100%;
@@ -367,16 +358,6 @@ main .main-banner {
         @media (max-width: 1000px) {
           .third article .right-text h2 {
             font-size: 14px; } }
-    .third article .center-div {
-      width: 100%;
-      margin: 0; }
-      .third article .center-div .ggas {
-        text-align: center;
-        font-size: 48px;
-        color: #FE394F; }
-        @media (max-width: 758px) {
-          .third article .center-div .ggas {
-            font-size: 28px; } }
 
 @media (max-width: 768px) {
   .imeno-third article {
@@ -409,13 +390,13 @@ footer .contact-links {
 
 footer .fourth {
   padding: 35px 0;
-  background-color: #FE394F;
+  background-color: #B8EDF8;
   position: relative; }
   footer .fourth .header {
     text-align: center;
     margin-bottom: 14px;
-    font-size: 24px;
-    font-family: 'BPG Nino Mkhedruli Book'; }
+    font-size: 18px;
+    font-family: 'BPG Glaho WEB Caps'; }
   footer .fourth .break-line {
     position: absolute;
     left: 50%;
@@ -453,16 +434,16 @@ footer .footer {
         margin-top: 30px; } }
 
 .first .break-line {
-  background-color: #FE394F; }
+  background-color: #B8EDF8; }
 
 .third .break-line {
-  background-color: #FE394F; }
+  background-color: #B8EDF8; }
 
 .second .break-line {
-  background-color: #FE394F; }
+  background-color: #B8EDF8; }
 
 .fourth .break-line {
-  background-color: #FE394F; }
+  background-color: #B8EDF8; }
 
 .second .image-container div a {
   color: black;
