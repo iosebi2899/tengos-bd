@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'BPG Glaho WEB Caps';
+    src: url('../fonts/BPGGlahoWEBCaps.eot');
+    src: url('../fonts/BPGGlahoWEBCaps.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/BPGGlahoWEBCaps.woff2') format('woff2'),
+        url('../fonts/BPGGlahoWEBCaps.woff') format('woff'),
+        url('../fonts/BPGGlahoWEBCaps.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BPG Nino Mkhedruli Book';
+    src: url('../fonts/BPGNinoMkhedruliBook.eot');
+    src: url('../fonts/BPGNinoMkhedruliBook.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/BPGNinoMkhedruliBook.woff2') format('woff2'),
+        url('../fonts/BPGNinoMkhedruliBook.woff') format('woff'),
+        url('../fonts/BPGNinoMkhedruliBook.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Geo Kokhodze';
+    src: url('../fonts/GeoKokhodze.eot');
+    src: url('../fonts/GeoKokhodze.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GeoKokhodze.woff2') format('woff2'),
+        url('../fonts/GeoKokhodze.woff') format('woff'),
+        url('../fonts/GeoKokhodze.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'DM Niko Nikoladze';
+    src: url('DMNikoNikoladze.eot');
+    src: url('../fonts/DMNikoNikoladze.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/DMNikoNikoladze.woff2') format('woff2'),
+        url('../fonts/DMNikoNikoladze.woff') format('woff'),
+        url('../fonts/DMNikoNikoladze.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+

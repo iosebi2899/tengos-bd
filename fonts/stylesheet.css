@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'DM Niko Nikoladze';
+    src: url('DMNikoNikoladze.eot');
+    src: url('DMNikoNikoladze.eot?#iefix') format('embedded-opentype'),
+        url('DMNikoNikoladze.woff2') format('woff2'),
+        url('DMNikoNikoladze.woff') format('woff'),
+        url('DMNikoNikoladze.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
