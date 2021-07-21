@@ -14,9 +14,9 @@ main {
   transition: 0.5s; }
   .main-header .container {
     display: none;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
-    padding: 5px 80px; }
+    padding: 20px 80px; }
     @media (max-width: 1000px) {
       .main-header .container {
         padding: 10px 20px; } }
@@ -241,7 +241,7 @@ main .main-banner {
       .first .article-container article h1 {
         font-family: 'BPG Nino Mkhedruli Book';
         font-size: 18px;
-        padding: 58px 0 18px 0;
+        padding: 38px 0 18px 0;
         line-height: 25.6px;
         color: white; }
         @media (max-width: 1000px) {
