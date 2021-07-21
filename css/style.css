@@ -225,7 +225,8 @@ main .main-banner {
       box-sizing: border-box;
       text-align: center;
       position: relative;
-      padding: 50px 33px; }
+      padding: 30px;
+      padding-bottom: 0px; }
       .first .article-container article img {
         height: 70px;
         width: 100%; }
@@ -348,7 +349,7 @@ main .main-banner {
         width: 90px;
         height: 2px;
         background-color: white;
-        margin: 15px 0px 60px 0px; }
+        margin: 15px 0px 30px 0px; }
       .third article .right-text h2 {
         width: 100%;
         font-size: 18px;
@@ -364,10 +365,7 @@ main .main-banner {
     flex-direction: column-reverse !important; } }
 
 footer .contact-links {
-  display: flex;
-  justify-content: space-between;
-  margin: 2% 0%;
-  flex-wrap: wrap; }
+  text-align: center; }
   footer .contact-links div {
     width: 100%;
     text-align: center;
@@ -412,6 +410,7 @@ footer .footer {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap; }
   @media (max-width: 630px) {
     footer .footer {
